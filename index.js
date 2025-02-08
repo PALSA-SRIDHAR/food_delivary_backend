@@ -9,7 +9,7 @@ const cors=require("cors")
 const app=require("path")
 
 const app=express();
-const PORT=4000;
+const PORT=4000 || 5000;
 
 dotEnv.config()
 app.use(cors())
